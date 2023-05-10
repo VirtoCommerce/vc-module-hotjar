@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- Project is not a test project -->
+    <SonarQubeTestProject>false</SonarQubeTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VirtoCommerce.Hotjar.Core\VirtoCommerce.Hotjar.Core.csproj" />
+    <ProjectReference Include="..\VirtoCommerce.Hotjar.Data\VirtoCommerce.Hotjar.Data.csproj" />
+  </ItemGroup>
+
+</Project>

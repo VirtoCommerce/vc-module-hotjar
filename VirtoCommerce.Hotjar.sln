@@ -1,0 +1,64 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{690EF197-8F6E-4CA2-A737-48AA4FC798ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtoCommerce.Hotjar.Web", "src\VirtoCommerce.Hotjar.Web\VirtoCommerce.Hotjar.Web.csproj", "{29CF38C9-DF6D-42DD-9968-F8A3444AE1B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtoCommerce.Hotjar.Data", "src\VirtoCommerce.Hotjar.Data\VirtoCommerce.Hotjar.Data.csproj", "{1B8C970F-F858-420A-9232-F63B7598DC03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtoCommerce.Hotjar.Core", "src\VirtoCommerce.Hotjar.Core\VirtoCommerce.Hotjar.Core.csproj", "{CA46B01F-D90A-4447-9AD1-421393D90A10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{229950D8-8A82-4A4C-A960-4F858D2B0FC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtoCommerce.Hotjar.Tests", "tests\VirtoCommerce.Hotjar.Tests\VirtoCommerce.Hotjar.Tests.csproj", "{F2B79D97-473C-442A-8C8D-6259E0E4FD28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7B13D24B-5DB4-477B-B559-2B1A1DFE3DFA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		module.ignore = module.ignore
+		README.md = README.md
+		VirtoCommerce.Hotjar.sln.DotSettings = VirtoCommerce.Hotjar.sln.DotSettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29CF38C9-DF6D-42DD-9968-F8A3444AE1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29CF38C9-DF6D-42DD-9968-F8A3444AE1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29CF38C9-DF6D-42DD-9968-F8A3444AE1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29CF38C9-DF6D-42DD-9968-F8A3444AE1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B8C970F-F858-420A-9232-F63B7598DC03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8C970F-F858-420A-9232-F63B7598DC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8C970F-F858-420A-9232-F63B7598DC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8C970F-F858-420A-9232-F63B7598DC03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA46B01F-D90A-4447-9AD1-421393D90A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA46B01F-D90A-4447-9AD1-421393D90A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA46B01F-D90A-4447-9AD1-421393D90A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA46B01F-D90A-4447-9AD1-421393D90A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B79D97-473C-442A-8C8D-6259E0E4FD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B79D97-473C-442A-8C8D-6259E0E4FD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B79D97-473C-442A-8C8D-6259E0E4FD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B79D97-473C-442A-8C8D-6259E0E4FD28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29CF38C9-DF6D-42DD-9968-F8A3444AE1B9} = {690EF197-8F6E-4CA2-A737-48AA4FC798ED}
+		{1B8C970F-F858-420A-9232-F63B7598DC03} = {690EF197-8F6E-4CA2-A737-48AA4FC798ED}
+		{CA46B01F-D90A-4447-9AD1-421393D90A10} = {690EF197-8F6E-4CA2-A737-48AA4FC798ED}
+		{F2B79D97-473C-442A-8C8D-6259E0E4FD28} = {229950D8-8A82-4A4C-A960-4F858D2B0FC9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D746BD2-4435-444F-86F2-0C5E04E0BE84}
+	EndGlobalSection
+EndGlobal
