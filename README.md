@@ -9,7 +9,7 @@ Hotjar module allows you to assign Hotjar Site Id for a Store and get insights i
 1. Application menu.
 
 ## Screenshots
-![Hotjar](https://videos.ctfassets.net/lh3zuq09vnm2/2q1Ma50UnBKlnPbbRReO2j/f50946203d4a6bb26285a80a7275e571/heatmap-scrolling.mp4)
+![Hotjar](docs/media/hotjar-main.png)
 
 ## Setup
 1. [Create and сonfigure Hotjar Account](https://www.hotjar.com/)
