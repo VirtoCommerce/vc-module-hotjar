@@ -1,17 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <module>
   <id>VirtoCommerce.Hotjar</id>
-  <version>3.200.0</version>
+  <version>3.201.0</version>
   <version-tag></version-tag>
-
   <platformVersion>3.200.0</platformVersion>
   <dependencies>
     <dependency id="VirtoCommerce.Store" version="3.200.0" />
   </dependencies>
-
   <title>Hotjar</title>
   <description>Allows to assign Hotjar Site Id for a Store and get insights about the shopping behaviour of your users with Heatmaps, Recordings, Feedback and etc.</description>
-
   <apps>
     <app id="hotjar">
       <title>Hotjar</title>
@@ -20,21 +17,17 @@
       <permission>hotjar:access</permission>
     </app>
   </apps>
-
   <authors>
     <author>Oleg Zhuk</author>
   </authors>
   <owners>
     <owner>VirtoCommerce</owner>
   </owners>
-
   <projectUrl>https://github.com/VirtoCommerce/vc-module-hotjar</projectUrl>
   <iconUrl>Modules/$(VirtoCommerce.Hotjar)/Content/logo.png</iconUrl>
   <requireLicenseAcceptance>false</requireLicenseAcceptance>
-
   <assemblyFile>VirtoCommerce.Hotjar.Web.dll</assemblyFile>
   <moduleType>VirtoCommerce.Hotjar.Web.Module, VirtoCommerce.Hotjar.Web</moduleType>
-
   <releaseNotes>First version.</releaseNotes>
   <copyright>Copyright © 2023 VirtoCommerce. All rights reserved</copyright>
   <tags>extension module</tags>
