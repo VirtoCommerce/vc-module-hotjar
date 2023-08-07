@@ -1,16 +1,16 @@
 using System.Threading.Tasks;
 using VirtoCommerce.Hotjar.Core.Services;
-using VirtoCommerce.Platform.Core.GenericCrud;
+using VirtoCommerce.Platform.Core.Common;
 using VirtoCommerce.Platform.Core.Settings;
-using VirtoCommerce.StoreModule.Core.Model;
+using VirtoCommerce.StoreModule.Core.Services;
 
 namespace VirtoCommerce.Hotjar.Data.Services
 {
     public class HotjarSettingsManager : IHotjarSettingsManager
     {
-        readonly ICrudService<Store> _storeService;
+        readonly IStoreService _storeService;
 
-        public HotjarSettingsManager(ICrudService<Store> storeService)
+        public HotjarSettingsManager(IStoreService storeService)
         {
             _storeService = storeService;
         }
