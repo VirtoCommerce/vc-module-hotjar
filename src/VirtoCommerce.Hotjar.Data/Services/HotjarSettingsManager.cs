@@ -3,6 +3,7 @@ using VirtoCommerce.Hotjar.Core.Services;
 using VirtoCommerce.Platform.Core.Common;
 using VirtoCommerce.Platform.Core.Settings;
 using VirtoCommerce.StoreModule.Core.Services;
+using HotjarSettingsConstants = VirtoCommerce.Hotjar.Core.ModuleConstants.Settings.General;
 
 namespace VirtoCommerce.Hotjar.Data.Services
 {
@@ -23,10 +24,10 @@ namespace VirtoCommerce.Hotjar.Data.Services
             if (store == null)
                 return retVal;
 
-            retVal.SiteId = store.Settings.GetSettingValue("Hotjar.SiteId", string.Empty);
+            retVal.SiteId = store.Settings.GetValue<string>(HotjarSettingsConstants.SiteId);
             if (!string.IsNullOrEmpty(retVal.SiteId))
             {
-                retVal.EnableTracking = store.Settings.GetSettingValue("Hotjar.EnableTracking", false);
+                retVal.EnableTracking = store.Settings.GetValue<bool>(HotjarSettingsConstants.EnableTracking);
             }
 
             return retVal;
