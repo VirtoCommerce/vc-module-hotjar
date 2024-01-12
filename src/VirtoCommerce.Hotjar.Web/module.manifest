@@ -1,13 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <module>
   <id>VirtoCommerce.Hotjar</id>
   <version>3.800.0</version>
-  <version-tag>
-  </version-tag>
-  <platformVersion>3.800.0-alpha.12831-net8</platformVersion>
+  <version-tag />
+
+  <platformVersion>3.800.0</platformVersion>
   <dependencies>
-    <dependency id="VirtoCommerce.Store" version="3.800.0-alpha.676-pt-14740-net8" />
+    <dependency id="VirtoCommerce.Store" version="3.800.0" />
   </dependencies>
+
   <title>Hotjar</title>
   <description>Allows to assign Hotjar Site Id for a Store and get insights about the shopping behaviour of your users with Heatmaps, Recordings, Feedback and etc.</description>
   <apps>
