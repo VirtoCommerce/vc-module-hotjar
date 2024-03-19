@@ -28,6 +28,7 @@ public static class ModuleConstants
                 GroupName = "Hotjar",
                 ValueType = SettingValueType.Boolean,
                 DefaultValue = false,
+                IsPublic = true,
             };
 
             public static SettingDescriptor SiteId { get; } = new SettingDescriptor
@@ -36,6 +37,7 @@ public static class ModuleConstants
                 GroupName = "Hotjar",
                 ValueType = SettingValueType.ShortText,
                 DefaultValue = string.Empty,
+                IsPublic = true,
             };
 
             public static IEnumerable<SettingDescriptor> AllSettings
