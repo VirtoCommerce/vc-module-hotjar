@@ -40,12 +40,22 @@ public static class ModuleConstants
                 IsPublic = true,
             };
 
+            public static SettingDescriptor SnippetVersion { get; } = new SettingDescriptor
+            {
+                Name = "Hotjar.SnippetVersion",
+                GroupName = "Hotjar",
+                ValueType = SettingValueType.Integer,
+                DefaultValue = 6,
+                IsPublic = true,
+            };
+
             public static IEnumerable<SettingDescriptor> AllSettings
             {
                 get
                 {
                     yield return EnableTracking;
                     yield return SiteId;
+                    yield return SnippetVersion;
                 }
             }
 
@@ -57,6 +67,7 @@ public static class ModuleConstants
             {
                 yield return General.EnableTracking;
                 yield return General.SiteId;
+                yield return General.SnippetVersion;
             }
         }
 
