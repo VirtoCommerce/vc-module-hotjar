@@ -35,8 +35,8 @@ public static class ModuleConstants
             {
                 Name = "Hotjar.SiteId",
                 GroupName = "Hotjar",
-                ValueType = SettingValueType.ShortText,
-                DefaultValue = string.Empty,
+                ValueType = SettingValueType.Integer,
+                DefaultValue = 0,
                 IsPublic = true,
             };
 
