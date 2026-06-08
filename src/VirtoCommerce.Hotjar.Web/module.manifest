@@ -15,7 +15,7 @@
     <app id="hotjar">
       <title>Hotjar</title>
       <description>Hotjar Dashboard</description>
-      <iconUrl>/apps/hotjar/logo.png</iconUrl>
+      <iconUrl>/apps/hotjar/logo.svg</iconUrl>
       <permission>hotjar:access</permission>
     </app>
   </apps>
