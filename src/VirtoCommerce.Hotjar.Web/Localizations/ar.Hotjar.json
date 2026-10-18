@@ -1,0 +1,14 @@
+{
+	"settings": {
+		"Hotjar": {
+			"EnableTracking": {
+				"title": "تفعيل",
+				"description": "تفعيل Hotjar للمتجر"
+			},
+			"SiteId": {
+				"title": "معرّف الموقع",
+				"description": "######## تهيئة البرنامج النصي لـ Hotjar باستخدام معرّف الموقع"
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"settings": {
+		"Hotjar": {
+			"EnableTracking": {
+				"title": "启用",
+				"description": "为商店启用 Hotjar"
+			},
+			"SiteId": {
+				"title": "站点 ID",
+				"description": "######## 使用站点 ID 初始化 Hotjar 脚本"
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"settings": {
+		"Hotjar": {
+			"EnableTracking": {
+				"title": "Включить",
+				"description": "Активация Hotjar для магазина"
+			},
+			"SiteId": {
+				"title": "ID сайта",
+				"description": "######## Инициализировать скрипт Hotjar с ID сайта"
+			}
+		}
+	}
+}
