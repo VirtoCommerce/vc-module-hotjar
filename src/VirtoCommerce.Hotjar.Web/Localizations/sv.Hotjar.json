@@ -1,0 +1,14 @@
+{
+	"settings": {
+		"Hotjar": {
+			"EnableTracking": {
+				"title": "Aktivera",
+				"description": "Aktivering av Hotjar för butiken"
+			},
+			"SiteId": {
+				"title": "Webbplats-ID",
+				"description": "######## Initiera Hotjar-skriptet med webbplats-ID"
+			}
+		}
+	}
+}

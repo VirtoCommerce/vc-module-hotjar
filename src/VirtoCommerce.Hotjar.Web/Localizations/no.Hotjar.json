@@ -1,0 +1,14 @@
+{
+	"settings": {
+		"Hotjar": {
+			"EnableTracking": {
+				"title": "Aktiver",
+				"description": "Aktivering av Hotjar for butikken"
+			},
+			"SiteId": {
+				"title": "Nettsted-ID",
+				"description": "######## Initialiser Hotjar-skriptet med nettsted-ID"
+			}
+		}
+	}
+}

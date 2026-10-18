@@ -1,0 +1,14 @@
+{
+	"settings": {
+		"Hotjar": {
+			"EnableTracking": {
+				"title": "有効化",
+				"description": "ストアで Hotjar を有効化します"
+			},
+			"SiteId": {
+				"title": "サイト ID",
+				"description": "######## サイト ID で Hotjar スクリプトを初期化します"
+			}
+		}
+	}
+}
