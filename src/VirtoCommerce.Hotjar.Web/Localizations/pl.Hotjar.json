@@ -1,0 +1,14 @@
+{
+	"settings": {
+		"Hotjar": {
+			"EnableTracking": {
+				"title": "Włącz",
+				"description": "Aktywacja Hotjar dla sklepu"
+			},
+			"SiteId": {
+				"title": "Identyfikator witryny",
+				"description": "######## Zainicjuj skrypt Hotjar za pomocą identyfikatora witryny"
+			}
+		}
+	}
+}

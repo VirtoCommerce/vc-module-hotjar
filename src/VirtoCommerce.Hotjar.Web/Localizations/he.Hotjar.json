@@ -1,0 +1,14 @@
+{
+	"settings": {
+		"Hotjar": {
+			"EnableTracking": {
+				"title": "הפעלה",
+				"description": "הפעלת Hotjar עבור החנות"
+			},
+			"SiteId": {
+				"title": "מזהה אתר",
+				"description": "######## אתחול סקריפט Hotjar באמצעות מזהה האתר"
+			}
+		}
+	}
+}

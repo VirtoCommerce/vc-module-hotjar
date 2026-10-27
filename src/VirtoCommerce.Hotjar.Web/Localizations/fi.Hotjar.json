@@ -1,0 +1,14 @@
+{
+	"settings": {
+		"Hotjar": {
+			"EnableTracking": {
+				"title": "Ota käyttöön",
+				"description": "Hotjarin aktivointi kaupalle"
+			},
+			"SiteId": {
+				"title": "Sivuston tunnus",
+				"description": "######## Alusta Hotjar-skripti sivuston tunnuksella"
+			}
+		}
+	}
+}
